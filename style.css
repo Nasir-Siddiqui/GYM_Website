@@ -1,0 +1,296 @@
+/* Universal */
+
+body {
+    font-family: baloo bhai;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.red-text {
+    color: red;
+}
+
+.white-text {
+    color: white;
+}
+
+
+/* Black Button */
+.black-btn {
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background: rgb(0, 0, 0);
+    font-weight: bold;
+    color: white;
+    transition: 0.4s all;
+}
+
+.black-btn:hover {
+    background: red;
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(2px 2px 15px black);
+}
+
+
+/* Red Button */
+.red-btn {
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid red;
+    background: red;
+    font-weight: bold;
+    color: white;
+    transition: 0.4s all;
+}
+
+.red-btn:hover {
+    background: #000;
+    color: red;
+    cursor: pointer;
+    filter: drop-shadow(2px 2px 15px #f3f3f3);
+}
+
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    background-color: #000;
+    padding: 10px 50px;
+}
+
+.logo img {
+    width: 250px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    font-size: 22px;
+    padding: 0px 10px;
+    color: #fff;
+    transition: 0.4s all;
+}
+
+.nav-menu a:hover {
+    color: red;
+}
+
+
+/* Hero Section */
+section.hero {
+    display: flex;
+    align-items: center;
+}
+
+.hero-div {
+    padding: 40px 40px 0 40px;
+    background-color: rgb(0, 0, 0);
+    background-image: url(https://nasirgym.netlify.app/red-lighting.png);
+}
+
+.about-gym {
+    padding: 50px 50px;
+    background-color: rgb(31, 1, 86);
+}
+
+.hero-img {
+    width: 500px;
+    filter: drop-shadow(2px 2px 15px red);
+}
+
+
+/* About Section */
+.about-img {
+    width: 500px;
+    margin-right: 50px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    transition: 0.4s all;
+}
+
+.about-img:hover {
+    transform: rotate(2deg);
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+
+/* Service Area */
+.service-area {
+    padding: 30px 0;
+    background-image: linear-gradient(red, black);
+}
+
+.service-card {
+    display: flex;
+}
+
+.cards {
+    border: 2px solid wheat;
+    height: 400px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0 30px;
+}
+
+.service-card {
+    color: white;
+}
+
+.card-1 {
+    background: url(img/cardio.jpg)center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-2 {
+    background: url(https://rahulgym.netlify.app/images/blog.jpg) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-3 {
+    background: url(img/download.jpg) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.my-social {
+    margin: 0px 5px;
+}
+
+.read-more:hover {
+    cursor: pointer;
+}
+
+
+/* Video */
+.video video {
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.video-containers {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto auto;
+
+}
+
+
+/* Contact us */
+.contact {
+    padding: 40px 0;
+    background-color: #000;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-area {
+    padding: 30px 40px;
+    border-radius: 10px;
+    background: #000;
+    display: flex;
+    box-shadow: 2px 5px 15px red;
+    align-items: center;
+}
+
+.contact-img {
+    margin: 0px 10px;
+}
+
+.contact-img img {
+    width: 400px;
+    filter: drop-shadow(2px 2px 10px red);
+}
+
+.contact h1 {
+    font-size: 30x;
+    color: red;
+}
+
+.contact-form {
+    padding: 0px 40px;
+
+}
+
+input {
+    background-color: #000;
+    border: 2px solid red;
+    border-radius: 5px;
+    font-size: 15px;
+    color: red;
+    padding: 15px 15px;
+    margin: 20px 0px;
+    width: 100%;
+    display: block;
+}
+
+input:hover {
+    box-shadow: 2px 10px 15px red;
+}
+
+#submit-btn {
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 100%;
+    padding: 12px 0px;
+}
+
+#submit-btn:hover {
+    box-shadow: 2px 5px 15px red;
+}
+
+
+/* Footer */
+footer {
+    background-color: #000;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 80px 0px;
+    border-top: 2px solid red;
+}
+
+.container-link a {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: yellowgreen;
+    text-decoration: none;
+}
+
+.container-link a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.container-text p {
+    text-align: right;
+}
